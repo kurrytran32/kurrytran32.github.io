@@ -1,0 +1,83 @@
+body {
+    background-image: url("../images/indexbg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#indexTitle, #nameTag {
+    text-align: center;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.linkbtn {
+    width: 100%;
+}
+
+.indexbtn {
+    font-size: 20px;
+}
+
+#abtme {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px ;
+    margin-top: 50px;
+}
+#project {
+    width: 100%;
+    background-color: white;
+    
+    border-radius: 10px;
+}
+.collapsible {
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+#collapsiblePort {
+    border-radius: 2%;
+}
+.portImage {
+    width: 100%;
+    border-radius: 5px;
+}
+#portfolioTitle {
+    margin-left: 2%;
+    padding:0px 5px 0 5px;
+}
+#contact {
+    padding: 10px;
+    width: 100%;
+    margin:auto;
+    background-color: white;
+    text-align: center;
+    float: none;
+    border-radius: 2%;
+}
+.headerText {
+    margin-top: 2%;
+}
+h1, h3, h4 {
+    font-family: "Permanent Marker", cursive;
+}
+a, p, .collapsible-header, li {
+    font-family: "Gamja Flower", cursive;
+    font-size: 1.5rem;
+}
+.footer {
+    background-color:whitesmoke;
+    height: 40px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 10px;
+}
