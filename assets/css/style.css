@@ -72,7 +72,7 @@ a, p, .collapsible-header, li {
     font-size: 1.5rem;
 }
 .footer {
-    background-color:whitesmoke;
+    background-color: rgb(51, 156, 160);
     height: 40px;
     right: 0;
     left: 0;
@@ -80,4 +80,8 @@ a, p, .collapsible-header, li {
     width: 100%;
     position: absolute;
     margin-top: 10px;
+    color: black;
+}
+.footer a{
+    color: black;
 }
