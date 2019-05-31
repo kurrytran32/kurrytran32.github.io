@@ -5,10 +5,12 @@ body {
     background-repeat: no-repeat;
 }
 
-#indexTitle, #nameTag {
+#indexTitle,
+#nameTag {
     text-align: center;
 }
-.content-wrapper{
+
+.content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,13 +29,14 @@ body {
 #abtme {
     background-color: white;
     border-radius: 5px;
-    padding: 10px 20px 10px ;
+
+    padding: 10px 20px 10px;
     margin-top: 50px;
 }
+
 #project {
     width: 100%;
     background-color: white;
-    
     border-radius: 10px;
 }
 .collapsible {
@@ -44,35 +47,45 @@ body {
 #collapsiblePort {
     border-radius: 2%;
 }
+
 .portImage {
     width: 100%;
     border-radius: 5px;
 }
 #portfolioTitle {
     margin-left: 2%;
-    padding:0px 5px 0 5px;
+    padding: 0px 5px 0 5px;
 }
 #contact {
     padding: 10px;
     width: 100%;
-    margin:auto;
+    margin: auto;
     background-color: white;
     text-align: center;
     float: none;
-    border-radius: 2%;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 .headerText {
     margin-top: 2%;
 }
-h1, h3, h4 {
+h1,
+h3,
+h4 {
     font-family: "Permanent Marker", cursive;
 }
-a, p, .collapsible-header, li {
+
+a,
+p,
+.collapsible-header,
+li {
     font-family: "Gamja Flower", cursive;
     font-size: 1.5rem;
 }
+
 .footer {
-    background-color: rgb(51, 156, 160);
+    background-color: whitesmoke;
     height: 40px;
     right: 0;
     left: 0;
@@ -80,8 +93,9 @@ a, p, .collapsible-header, li {
     width: 100%;
     position: absolute;
     margin-top: 10px;
-    color: black;
+    opacity: 0.7;
 }
-.footer a{
-    color: black;
+
+#porfolioRule {
+    margin: 0px;
 }

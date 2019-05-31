@@ -1,15 +1,9 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//     var elems = document.querySelectorAll('.collapsible');
-//     var instances = M.Collapsible.init(elems, options);
-// });
-
-// // var instance = M.Carousel.getInstance(elem);
 var aboutbtn = document.getElementById('aboutbtn');
 var projbtn = document.getElementById('projbtn');
 var contactbtn = document.getElementById('contactbtn');
 
 
-
+//enabling smooth scrolling to sections
 aboutbtn.addEventListener("click", function (event) {
     document.getElementById('abtme').scrollIntoView({
         behavior: 'smooth',
