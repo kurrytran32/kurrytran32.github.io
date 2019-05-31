@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="assets/css/materialize.css">
-    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i&display=swap" rel="stylesheet">
     <!-- my own style.css -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <!-- Compiled and minified JavaScript -->
@@ -17,15 +19,16 @@
 
 <body>
     <!-- centering content -->
-    <div class="content-wrapper valign-wrapper">
-        <div class="container">
-            <!-- title text -->
-            <div class="row">
-                <div class="col s12">
-                    <h1 id="indexTitle">Web Development Portfolio</h1>
-                    <h4 id='nameTag'>Kerry D Tran</h3>
+    <div id="page-wrapper">
+        <div class="content-wrapper valign-wrapper">
+            <div class="container">
+                <!-- title text -->
+                <div class="row">
+                    <div class="col s12">
+                        <h1 id="indexTitle">Web Development Portfolio</h1>
+                        <h4 id='nameTag'>Kerry D Tran</h3>
+                    </div>
                 </div>
-            </div>
 
             <!-- link btn div for positioning -->
             <div class='linkbtn row'>
@@ -48,127 +51,125 @@
                         <strong>Projects</strong>
                     </a>
                 </div>
-                <!-- end div for button row -->
-            </div>
 
-            <!-- starting div for about me -->
-            <div class="row">
-                <div class="container">
-                    <div class="col s12" id="abtme">
-                        <h3 id="aboutTitle" class="headerText">About Me</h2>
-                            <hr>
-                            <p id="aboutContent"> My name is Kerry Tran. Aspiring web developer.  Passionate Gamer. My goal is to create something utterly unique
-                                that will change the industry. My motivation is the relentless curiousity of how things
-                                work.
-                                In order to achieve my goals, I will get as much insight into the industry to find
-                                ideas.</p>
-                            <!-- ending div for abtme column  -->
-                    </div>
-                    <!-- end div for abt container -->
-                </div>
-                <!-- end div for about me row -->
-            </div>
-
-            <!-- starting div for projects div -->
-            <div class="row">
-                <div class="container">
-                    <!-- col div for projects -->
-                    <div class="col s12" id="project">
-
-                        <ul class="collapsible" id="collapsiblePort">
-
-                            <li>
-                                <h3 id="portfolioTitle" class="headerText">Portfolio
-                                </h3>
-                            </li>
-                            <hr id="porfolioRule">
-                            <!-- Destinator tab -->
-                            <li>
-                                <div class="collapsible-header">
-                                    <h5>
-                                        The Destinator
-                                    </h5>
-                                </div>
-                                <div class="collapsible-body">
-                                    <img class="portImage" src="assets/images/Destinator.png">
-                                    <p>Github Repo:
-
-                                        <a
-                                            href="https://github.com/kurrytran32/TheDestinator" target="_blank">https://github.com/kurrytran32/TheDestinator</a>
-                                    </p>
-                                    <p>Deployed Link:
-                                        <a
-                                            href="https://kurrytran32.github.io/TheDestinator/" target="_blank">https://kurrytran32.github.io/TheDestinator/</a>
-                                    </p>
-                                </div>
-                            </li>
-                            <!-- Go THere and Find Out tab -->
-                            <li>
-                                <div class="collapsible-header">
-                                    Go There and Find Out!
-                                </div>
-                                <div class="collapsible-body">
-                                    <img class="portImage" src="assets/images/GoThereFindOut.png">
-                                    <p>Github Repo:
-                                        <a
-                                            href="https://github.com/JinseiNai/Project3" target="_blank">https://github.com/JinseiNai/Project3</a>
-                                    </p>
-                                    <p>Deployed Link:
-                                        <a
-                                            href="https://vast-garden-31798.herokuapp.com/" target="_blank">https://vast-garden-31798.herokuapp.com/</a>
-                                    </p>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <!-- end col div proj -->
-                </div>
-                
-
-                <!-- end div for projects div -->
-            </div>
-            <!-- contact info -->
-            <div class="row">
+                <!-- starting div for about me -->
+                <div class="row">
                     <div class="container">
-                    <div class="col s12" id="contact">
-                        <h3 class="headerText">Contact
-                            <hr>
-                        </h3>
-                        <ul id="contactList">
-                            <li>Email: kurrytran32@gmail.com</li>
-                            <li>GitHub:
-                                <a class='contact-link'
-                                    href="https://github.com/kurrytran32" target="_blank">https://github.com/kurrytran32</a>
-                            </li>
-                            <li>GitHub.io:
-                                <a class='contact-link'
-                                    href='https://kurrytran32.github.io' target="_blank">https://kurrytran32.github.io</a>
-                            </li>
-                            <li>LinkedIn:
-                                <a class='contact-link'
-                                    href='https://www.linkedin.com/in/kerry-dang-tran/' target="_blank">https://www.linkedin.com/in/kerry-dang-tran/
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="col s12" id="abtme">
+                            <h3 id="aboutTitle" class="headerText">About Me</h2>
+                                <hr>
+                                <p id="aboutContent"> My name is Kerry Tran. Aspiring web developer. Passionate Gamer.
+                                    My
+                                    goal is to create something utterly unique
+                                    that will change the industry. My motivation is the relentless curiousity of how
+                                    things
+                                    work.
+                                    In order to achieve my goals, I will get as much insight into the industry to find
+                                    ideas.</p>
+                                <!-- ending div for abtme column  -->
+                        </div>
+                        <!-- end div for abt container -->
                     </div>
-                    <!-- end div container -->
-            </div>
-            </div>
-            <!-- contact info div -->
-        </div>
-        <!-- end div for container wrapper -->
-    </div>
-    <!-- end div for content -->
+                    <!-- end div for about me row -->
+                </div>
+
+                <!-- starting div for projects div -->
+                <div class="row">
+                    <div class="container">
+                        <!-- col div for projects -->
+                        <div class="col s12" id="project">
+
+                            <ul class="collapsible" id="collapsiblePort">
+                                <li>
+                                    <h3 id="portfolioTitle" class="headerText">Portfolio
+                                    </h3>
+                                </li>
+                                <hr id="porfolioRule">
+                                <!-- Destinator tab -->
+                                <li>
+                                    <div class="collapsible-header">
+                                        <h5>
+                                            The Destinator
+                                        </h5>
+                                    </div>
+                                    <div class="collapsible-body">
+                                        <img class="portImage" src="assets/images/Destinator.png">
+                                        <p>Github Repo:
+                                            <a href="https://github.com/kurrytran32/TheDestinator"
+                                                target="_blank">https://github.com/kurrytran32/TheDestinator</a>
+                                        </p>
+                                        <p>Deployed Link:
+                                            <a href="https://kurrytran32.github.io/TheDestinator/"
+                                                target="_blank">https://kurrytran32.github.io/TheDestinator/</a>
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- Go THere and Find Out tab -->
+                                <li>
+                                    <div class="collapsible-header">
+                                        Go There and Find Out!
+                                    </div>
+                                    <div class="collapsible-body">
+                                        <img class="portImage" src="assets/images/GoThereFindOut.png">
+                                        <p>Github Repo:
+                                            <a href="https://github.com/JinseiNai/Project3"
+                                                target="_blank">https://github.com/JinseiNai/Project3</a>
+                                        </p>
+                                        <p>Deployed Link:
+                                            <a href="https://vast-garden-31798.herokuapp.com/"
+                                                target="_blank">https://vast-garden-31798.herokuapp.com/</a>
+                                        </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- end col div proj -->
+                    </div>
 
 
-    <!-- footer -->
-    <div class="footer">
-        <div class="devs">
-            <p> &copy;
-                <a href="https://kurrytran32.github.io/" target="_blank">Kerry T.</a>
-            </p>
+                    <!-- end div for projects div -->
+                </div>
+                <!-- contact info -->
+                <div class="row">
+                    <div class="container">
+                        <div class="col s12" id="contact">
+                            <h3 class="headerText">Contact
+                                <hr>
+                            </h3>
+                            <ul id="contactList">
+                                <li>Email: kurrytran32@gmail.com</li>
+                                <li>GitHub:
+                                    <a class='contact-link' href="https://github.com/kurrytran32"
+                                        target="_blank">https://github.com/kurrytran32</a>
+                                </li>
+                                <li>GitHub.io:
+                                    <a class='contact-link' href='https://kurrytran32.github.io'
+                                        target="_blank">https://kurrytran32.github.io</a>
+                                </li>
+                                <li>LinkedIn:
+                                    <a class='contact-link' href='https://www.linkedin.com/in/kerry-dang-tran/'
+                                        target="_blank">https://www.linkedin.com/in/kerry-dang-tran/
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end div container -->
+                    </div>
+                </div>
+                <!-- contact info div -->
+            </div>
+            <!-- end div for container wrapper -->
         </div>
+        <!-- footer -->
+            <div class="footer">
+                <div class="devs">
+                    <p> &copy;
+                        <a href="https://kurrytran32.github.io/" target="_blank">Kerry T.</a>
+                    </p>
+                </div>
+            </div>
+        <!-- end div for content -->
     </div>
 
 
