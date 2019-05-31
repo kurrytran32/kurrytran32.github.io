@@ -29,6 +29,7 @@ body {
 #abtme {
     background-color: white;
     border-radius: 5px;
+
     padding: 10px 20px 10px;
     margin-top: 50px;
 }
@@ -38,13 +39,11 @@ body {
     background-color: white;
     border-radius: 10px;
 }
-
 .collapsible {
     margin: 0;
     box-shadow: none;
     border: none;
 }
-
 #collapsiblePort {
     border-radius: 2%;
 }
@@ -53,12 +52,10 @@ body {
     width: 100%;
     border-radius: 5px;
 }
-
 #portfolioTitle {
     margin-left: 2%;
     padding: 0px 5px 0 5px;
 }
-
 #contact {
     padding: 10px;
     width: 100%;
@@ -70,11 +67,9 @@ body {
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
-
 .headerText {
     margin-top: 2%;
 }
-
 h1,
 h3,
 h4 {
