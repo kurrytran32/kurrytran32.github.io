@@ -1,63 +1,179 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Champagne Papi</title>
-        <link rel="stylesheet" type="text/css" href="champagnestyle.css">
-    </head>
-    <body>
-        <div>
 
-            <h1>
-                The One, the Only Drake
-            </h1>
-        </div>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kerry D Tran</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- My own reset css file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Permanent+Marker" rel="stylesheet">
+    <!-- my own style.css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- Compiled and minified JavaScript -->
+</head>
 
-        <div>
-            <h2>
-                Biography
-            </h2>
-            <div class= "container">
-                <p>
-                Aubrey Drake Graham was born on October 24, 1986 in Toronto, Canada.  Drake first started his entertainment career in 
-                "Degrassi: The Next Generation".  Later, he entered the music business signing with Lil Wayne's label "Young Money Entertainment". 
-
-                </p>
-
-                <p>
-                After signing, he made many popular hits including his songs, "Hotline Bling", "Fake Love", "God's Plan", and many more.
-
-                </p>
-            
-                <p>
-                You can read more about Drake at <a href="https://en.wikipedia.org/wiki/Drake_(musician)">https://en.wikipedia.org/wiki/Drake_(musician)</a>
-
-                </p>
+<body>
+    <!-- centering content -->
+    <div class="content-wrapper valign-wrapper">
+        <div class="container">
+            <!-- title text -->
+            <div class="row">
+                <div class="col s12">
+                    <h1 id="indexTitle">Web Development Portfolio</h1>
+                    <h4 id='nameTag'>Kerry D Tran</h3>
+                </div>
             </div>
-        </div>
 
-        <div>
-            <h2>
-                My Favorite Jams
-            </h2>
-            <ol>
-                <li>"God's Plan</li>
-                <li>"Fake Love</li>
-                <li>"Hotline Bling</li>
-                <li>"Passionfruit"</li>
-                <li>"One Dance"</li>
-            </ol>
-        </div>
-        <div>
-            <img src="https://i.imgur.com/tWcjiHX.jpg" alt="Drake Success">
-        </div>
+            <!-- link btn div for positioning -->
+            <div class='linkbtn row'>
+                <div class="col s4 center-align">
+                    <!-- button to about -->
+                    <a class="waves-effect waves-green btn indexbtn white-text" id="aboutbtn" href="#abtme">
+                        <strong>About Me</strong>
+                    </a>
+                </div>
+                <div class="col s4 center-align">
+                    <!-- button to contact -->
+                    <a class="waves-effect waves-green lighten-3 btn indexbtn white-text" id="contactbtn"
+                        href="#contact">
+                        <strong>Contact</strong>
+                    </a>
+                </div>
+                <div class="col s4 center-align">
+                    <!-- button to projects -->
+                    <a class="waves-effect waves-green btn indexbtn white-text" id="projbtn" href="#projects">
+                        <strong>Projects</strong>
+                    </a>
+                </div>
+                <!-- end div for button row -->
+            </div>
 
-        <div>
-            <p>
-                Check out his music video for <a href="https://www.youtube.com/watch?v=uxpDa-c-4Mc">Hotline Bling</a>
+            <!-- starting div for about me -->
+            <div class="row">
+                <div class="container">
+                    <div class="col s12" id="abtme">
+                        <h3 id="aboutTitle" class="headerText">About Me</h2>
+                            <hr>
+                            <p id="aboutContent"> My name is Kerry Tran. Aspiring web developer.  Passionate Gamer. My goal is to create something utterly unique
+                                that will change the industry. My motivation is the relentless curiousity of how things
+                                work.
+                                In order to achieve my goals, I will get as much insight into the industry to find
+                                ideas.</p>
+                            <!-- ending div for abtme column  -->
+                    </div>
+                    <!-- end div for abt container -->
+                </div>
+                <!-- end div for about me row -->
+            </div>
+
+            <!-- starting div for projects div -->
+            <div class="row">
+                <div class="container">
+                    <!-- col div for projects -->
+                    <div class="col s12" id="project">
+
+                        <ul class="collapsible" id="collapsiblePort">
+                            <li>
+                                <h3 id="portfolioTitle" class="headerText">Portfolio
+                                </h3>
+                            </li>
+                            <hr id="porfolioRule">
+                            <!-- Destinator tab -->
+                            <li>
+                                <div class="collapsible-header">
+                                    <h5>
+                                        The Destinator
+                                    </h5>
+                                </div>
+                                <div class="collapsible-body">
+                                    <img class="portImage" src="assets/images/Destinator.png">
+                                    <p>Github Repo:
+                                        <a
+                                            href="https://github.com/kurrytran32/TheDestinator" target="_blank">https://github.com/kurrytran32/TheDestinator</a>
+                                    </p>
+                                    <p>Deployed Link:
+                                        <a
+                                            href="https://kurrytran32.github.io/TheDestinator/" target="_blank">https://kurrytran32.github.io/TheDestinator/</a>
+                                    </p>
+                                </div>
+                            </li>
+                            <!-- Go THere and Find Out tab -->
+                            <li>
+                                <div class="collapsible-header">
+                                    Go There and Find Out!
+                                </div>
+                                <div class="collapsible-body">
+                                    <img class="portImage" src="assets/images/GoThereFindOut.png">
+                                    <p>Github Repo:
+                                        <a
+                                            href="https://github.com/JinseiNai/Project3" target="_blank">https://github.com/JinseiNai/Project3</a>
+                                    </p>
+                                    <p>Deployed Link:
+                                        <a
+                                            href="https://vast-garden-31798.herokuapp.com/" target="_blank">https://vast-garden-31798.herokuapp.com/</a>
+                                    </p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- end col div proj -->
+                </div>
+                
+
+                <!-- end div for projects div -->
+            </div>
+            <!-- contact info -->
+            <div class="row">
+                    <div class="container">
+                    <div class="col s12" id="contact">
+                        <h3 class="headerText">Contact
+                            <hr>
+                        </h3>
+                        <ul id="contactList">
+                            <li>Email: kurrytran32@gmail.com</li>
+                            <li>GitHub:
+                                <a class='contact-link'
+                                    href="https://github.com/kurrytran32" target="_blank">https://github.com/kurrytran32</a>
+                            </li>
+                            <li>GitHub.io:
+                                <a class='contact-link'
+                                    href='https://kurrytran32.github.io' target="_blank">https://kurrytran32.github.io</a>
+                            </li>
+                            <li>LinkedIn:
+                                <a class='contact-link'
+                                    href='https://www.linkedin.com/in/kerry-dang-tran/' target="_blank">https://www.linkedin.com/in/kerry-dang-tran/
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end div container -->
+            </div>
+            </div>
+            <!-- contact info div -->
+        </div>
+        <!-- end div for container wrapper -->
+    </div>
+    <!-- end div for content -->
+    
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="devs">
+            <p> &copy;
+                <a href="https://kurrytran32.github.io/" target="_blank">Kerry T.</a>
             </p>
-            <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/uxpDa-c-4Mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-            </iframe>
         </div>
-    </body>
+    </div>
+
+
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
 </html>
